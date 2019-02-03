@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Tags test","This test will verify if a status code of 200 is returned for GET request","FAILURE","2019-01-07T18:58:06.064+05:30[Asia/Calcutta]","0.0","1.9"

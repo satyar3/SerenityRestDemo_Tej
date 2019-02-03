@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="3" name="com.studentapp.junit.studentinfo.SerenityIDInfo" skipped="4" tests="8" time="45.19" timestamp="2019-01-07 06:56:48"><testcase classname="com.studentapp.junit.studentinfo.SerenityIDInfo" name="This is compromised test"><compromised message="C:\text.txt (The system cannot find the file specified)" type="java.io.FileNotFoundException">C:\text.txt (The system cannot find the file specified)</compromised><system-err>C:\text.txt (The system cannot find the file specified)&#13;
+com.studentapp.junit.studentinfo.SerenityIDInfo.thisIsCompromisedTest(SerenityIDInfo.java:68)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentinfo.SerenityIDInfo" name="This is a failing test"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; doesn't match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;500&gt; doesn't match actual status code &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;500&gt; doesn't match actual status code &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studentapp.junit.studentinfo.SerenityIDInfo.thisIsAFailingTest(SerenityIDInfo.java:41)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentinfo.SerenityIDInfo" name="This is manual test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentinfo.SerenityIDInfo" name="This is ignored test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentinfo.SerenityIDInfo" name="This test will fetch all student details"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; doesn't match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; doesn't match actual status code &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; doesn't match actual status code &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studentapp.junit.studentinfo.SerenityIDInfo.test01(SerenityIDInfo.java:87)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentinfo.SerenityIDInfo" name="This is a pending test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentinfo.SerenityIDInfo" name="Get all students"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; doesn't match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; doesn't match actual status code &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; doesn't match actual status code &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studentapp.junit.studentinfo.SerenityIDInfo.getAllStudents(SerenityIDInfo.java:31)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentinfo.SerenityIDInfo" name="This is error test"><error message="/ by zero" type="java.lang.ArithmeticException">/ by zero</error><system-err>/ by zero&#13;
+com.studentapp.junit.studentinfo.SerenityIDInfo.thisIsErrorTest(SerenityIDInfo.java:61)&#13;
+</system-err></testcase></testsuite>

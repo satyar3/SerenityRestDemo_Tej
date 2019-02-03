@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Serenity ID info","This is a failing test","FAILURE","2019-01-07T18:56:58.292+05:30[Asia/Calcutta]","0.0","15.2"
+"Serenity ID info","This test will fetch all student details","FAILURE","2019-01-07T18:57:21.84+05:30[Asia/Calcutta]","0.0","2.93"
+"Serenity ID info","Get all students","FAILURE","2019-01-07T18:57:29.893+05:30[Asia/Calcutta]","0.0","2.47"
+"Serenity ID info","This is error test","ERROR","2019-01-07T18:57:32.377+05:30[Asia/Calcutta]","0.0","4.31"

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing different requests on the student appication","Check if the student application can be accessed by the users","SUCCESS","2019-01-07T18:55:18.637+05:30[Asia/Calcutta]","0.0","25.96"
+"First student test","Get all students","SUCCESS","2019-01-07T18:56:09.965+05:30[Asia/Calcutta]","0.0","4.97"
+"Students crud test","This test will delete the newly added student","SUCCESS","2019-01-07T18:57:30.935+05:30[Asia/Calcutta]","0.0","3.67"

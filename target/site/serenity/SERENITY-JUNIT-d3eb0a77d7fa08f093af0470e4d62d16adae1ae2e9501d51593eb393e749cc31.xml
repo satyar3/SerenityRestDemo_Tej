@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="com.studentapp.junit.studentinfo.CreateStudentDataDriven" skipped="0" tests="3" time="25.12" timestamp="2019-01-07 06:56:44"><testcase classname="com.studentapp.junit.studentinfo.CreateStudentDataDriven" name="Data driven test for adding multiple students to the student app"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; doesn't match actual status code &lt;405&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; doesn't match actual status code &lt;405&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; doesn't match actual status code &lt;405&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studentapp.junit.studentinfo.CreateStudentDataDriven.createMultipleStudent(CreateStudentDataDriven.java:98)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Tags test","This test will provide an error code of 400 when user tries to access an invalid resource","FAILURE","2019-01-07T18:57:50.237+05:30[Asia/Calcutta]","0.0","10.44"
+"Tags test","Provide a 405 status code when incorrect HTTP method is used to access a resource","FAILURE","2019-01-07T18:58:03.258+05:30[Asia/Calcutta]","0.0","2.81"

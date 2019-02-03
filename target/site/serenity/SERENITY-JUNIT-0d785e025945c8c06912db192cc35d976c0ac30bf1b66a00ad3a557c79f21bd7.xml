@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="2" name="com.studentapp.junit.studentinfo.StudentsCrudTest" skipped="0" tests="4" time="30.03" timestamp="2019-01-07 06:57:01"><testcase classname="com.studentapp.junit.studentinfo.StudentsCrudTest" name="This test will create a new student"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; doesn't match actual status code &lt;405&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; doesn't match actual status code &lt;405&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; doesn't match actual status code &lt;405&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studentapp.junit.studentinfo.StudentsCrudTest.test001(StudentsCrudTest.java:65)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentinfo.StudentsCrudTest" name="This test will verify the addition of new student"><error message="The parameter &quot;firstName&quot; was used but not defined. Define parameters using the JsonPath.params(...) function" type="java.lang.IllegalArgumentException">The parameter "firstName" was used but not defined. Define parameters using the JsonPath.params(...) function</error><system-err>The parameter "firstName" was used but not defined. Define parameters using the JsonPath.params(...) function&#13;
+io.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:50)&#13;
+io.restassured.internal.path.json.JSONAssertion.getResult(JSONAssertion.groovy:28)&#13;
+io.restassured.path.json.JsonPath.get(JsonPath.java:202)&#13;
+io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.path(RestAssuredResponseOptionsGroovyImpl.groovy:398)&#13;
+io.restassured.internal.RestAssuredResponseOptionsImpl.path(RestAssuredResponseOptionsImpl.java:200)&#13;
+com.studentapp.cucumber.serenity.StudentSerenityStep.getStudentInfoByFirstname(StudentSerenityStep.java:50)&#13;
+com.studentapp.junit.studentinfo.StudentsCrudTest.test002(StudentsCrudTest.java:92)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentinfo.StudentsCrudTest" name="This test will update the newly added student"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; doesn't match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; doesn't match actual status code &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; doesn't match actual status code &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studentapp.junit.studentinfo.StudentsCrudTest.test003(StudentsCrudTest.java:120)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentinfo.StudentsCrudTest" name="This test will delete the newly added student"/></testsuite>

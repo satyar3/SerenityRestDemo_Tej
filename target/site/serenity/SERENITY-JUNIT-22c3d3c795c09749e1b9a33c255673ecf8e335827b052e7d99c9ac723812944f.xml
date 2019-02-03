@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="com.studentapp.junit.studentiddetails.FirstStudentTest" skipped="4" tests="7" time="54.77" timestamp="2019-01-07 06:55:18"><testcase classname="com.studentapp.junit.studentiddetails.FirstStudentTest" name="This is compromised test"><compromised message="C:\text.txt (The system cannot find the file specified)" type="java.io.FileNotFoundException">C:\text.txt (The system cannot find the file specified)</compromised><system-err>C:\text.txt (The system cannot find the file specified)&#13;
+com.studentapp.junit.studentiddetails.FirstStudentTest.thisIsCompromisedTest(FirstStudentTest.java:74)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentiddetails.FirstStudentTest" name="This is a failing test"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; doesn't match actual status code &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;500&gt; doesn't match actual status code &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;500&gt; doesn't match actual status code &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.studentapp.junit.studentiddetails.FirstStudentTest.thisIsAFailingTest(FirstStudentTest.java:47)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.studentiddetails.FirstStudentTest" name="This is manual test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentiddetails.FirstStudentTest" name="This is ignored test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentiddetails.FirstStudentTest" name="This is a pending test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentiddetails.FirstStudentTest" name="Get all students"/><testcase classname="com.studentapp.junit.studentiddetails.FirstStudentTest" name="This is error test"><error message="/ by zero" type="java.lang.ArithmeticException">/ by zero</error><system-err>/ by zero&#13;
+com.studentapp.junit.studentiddetails.FirstStudentTest.thisIsErrorTest(FirstStudentTest.java:67)&#13;
+</system-err></testcase></testsuite>

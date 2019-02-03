@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Students crud test","This test will create a new student","FAILURE","2019-01-07T18:57:01.168+05:30[Asia/Calcutta]","0.0","18.8"
+"Students crud test","This test will verify the addition of new student","ERROR","2019-01-07T18:57:23.068+05:30[Asia/Calcutta]","0.0","4.83"
+"Students crud test","This test will update the newly added student","FAILURE","2019-01-07T18:57:28.184+05:30[Asia/Calcutta]","0.0","2.73"
+"Students crud test","This test will delete the newly added student","SUCCESS","2019-01-07T18:57:30.935+05:30[Asia/Calcutta]","0.0","3.67"
